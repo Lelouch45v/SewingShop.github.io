@@ -38,6 +38,9 @@
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-search"></i>
                 </button>
+                <button onclick="myFunction()">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
             </div>
 
             <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
@@ -50,45 +53,46 @@
                         <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#collection">collection</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#collection">collection</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#special">specials</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#special">specials</a>
                     </li>
-                      <li class="nav-item px-2 py-2 dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Products
-                </a>
+                 <li class="nav-item px-2 py-2 dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         PRODUCT</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Bedsheet</a></li>
-                  <li><a class="dropdown-item" href="#">Curtains</a></li>
+                  <li><a class="dropdown-item" href="curtains.html">Curtains</a></li>
              
                  
                 </ul>
               </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#about">about us</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#about">about us</a>
                     </li>
                     <li class = "nav-item px-2 py-2 border-0">
-                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#popular">popular</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- end of navbar -->
+ 
+
  <!-- collection -->
-    <section id = "collection" class = "py-5">
+    <section id = "new-collection" class = "py-5">
         <div class = "container">
             <div class = "title text-center">
-                <h2 class = "position-relative d-inline-block">New Collection</h2>
+                <h2 class = "position-relative d-inline-block">Most Popular</h2>
             </div>
 
             <div class = "row g-0">
                 <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
                     <a href="#" class="btn m-2 text-dark active-filter-btn" role="button">All</a>
-                    <a href="#" class="btn m-2 text-dark " role="button">Best Sellers</a>
-                    <a href="#" class="btn m-2 text-dark " role="button">New Arrival</a>
+                    <a href="bestsellers.html" class="btn m-2 text-dark " role="button">Best Sellers</a>
+                    <a href="new_arrival.html" class="btn m-2 text-dark " role="button">New Arrival</a>
                 </div>
 
                 <div class = "collection-list mt-4 row gx-0 gy-3">
@@ -243,7 +247,7 @@
 
 
     <!-- collection -->
-    <section id = "collection" class = "py-5">
+    <section id = "simple-style-collection" class = "py-5">
         <div class = "container">
             <div class = "title text-center">
                 <h2 class = "position-relative d-inline-block">Simple Style</h2>
@@ -254,7 +258,7 @@
                 <div class = "collection-list mt-4 row gx-0 gy-3">
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
                         <div class = "collection-img position-relative">
-                            <img src = "images/Grey_Canadian.jpg" class = "w-100">
+                            <img src = "images/simple1.jpg" class = "w-100">
                             <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                         </div>
                         <div class = "text-center">
@@ -265,14 +269,14 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
-                            <p class = "text-capitalize my-1">Grey Canadian</p>
+                            <p class = "text-capitalize my-1"> triangle Grey Canadian</p>
                             <span class = "fw-bold">$ 5.00</span>
                         </div>
                     </div>
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
                         <div class = "collection-img position-relative">
-                            <img src = "images/Onepiece1.jpg" class = "w-100">
+                            <img src = "images/simple2.jpg" class = "w-100">
                             <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                         </div>
                         <div class = "text-center">
@@ -283,14 +287,14 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
-                            <p class = "text-capitalize my-1">One Piece Full Set</p>
-                            <span class = "fw-bold">$ 20.00</span>
+                            <p class = "text-capitalize my-1">White Bird Design</p>
+                            <span class = "fw-bold">$ 10.00</span>
                         </div>
                     </div>
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
                         <div class = "collection-img position-relative">
-                            <img src = "images/naruto.jpg" class = "w-100">
+                            <img src = "images/simple3.jpg" class = "w-100">
                             <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                         </div>
                         <div class = "text-center">
@@ -301,14 +305,14 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
-                            <p class = "text-capitalize my-1">Naruto BedSheet Only</p>
+                            <p class = "text-capitalize my-1">Grey and white stripes</p>
                             <span class = "fw-bold">$ 15.50</span>
                         </div>
                     </div>
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
                         <div class = "collection-img position-relative">
-                            <img src = "images//solo-leveling.jpg" class = "w-100">
+                            <img src = "images//simple4.jpg" class = "w-100">
                             <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                         </div>
                         <div class = "text-center">
@@ -319,14 +323,14 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
-                            <p class = "text-capitalize my-1">solo-leveling Full Set</p>
+                            <p class = "text-capitalize my-1">All blue Design</p>
                             <span class = "fw-bold">$15.00 </span>
                         </div>
                     </div>
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
                         <div class = "collection-img position-relative">
-                            <img src = "images/samurai1.jpg" class = "w-100">
+                            <img src = "images/simple5.jpg" class = "w-100">
                             <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                         </div>
                         <div class = "text-center">
@@ -337,12 +341,188 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
-                            <p class = "text-capitalize my-1">Samurai Bedsheet And Pillow Case</p>
+                            <p class = "text-capitalize my-1">Pink Fan Design</p>
                             <span class = "fw-bold">$ 10.50</span>
                         </div>
                     </div>
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/simple6.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">pure grey color</p>
+                            <span class = "fw-bold">$ 12.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/simple8.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Peach And white Design</p>
+                            <span class = "fw-bold">$ 12.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/blue-white1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">blue and white flower design 2t</p>
+                            <span class = "fw-bold">$ 25.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- collection -->
+    <section id = "anime-collection" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center">
+                <h2 class = "position-relative d-inline-block">Game Designs</h2>
+            </div>
+
+            
+
+                <div class = "collection-list mt-4 row gx-0 gy-3">
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/games1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">God of War</p>
+                            <span class = "fw-bold">$ 10.00</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/games2.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">xiao Genshin impact</p>
+                            <span class = "fw-bold">$ 20.00</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/games3.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Resident Evil Logo Bedsheet</p>
+                            <span class = "fw-bold">$ 15.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "images//games4.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Soraka League of Legends</p>
+                            <span class = "fw-bold">$10.00 </span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/games5.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Lucian League of legends  Design bedsheet</p>
+                            <span class = "fw-bold">$ 10.99</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/games6.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Green Bedsheet Design</p>
+                            <span class = "fw-bold">$ 12.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
                         <div class = "collection-img position-relative">
                             <img src = "images/evelyn.jpg" class = "w-100">
                             <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -355,7 +535,147 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
-                            <p class = "text-capitalize my-1">Evelyn Bedsheet</p>
+                            <p class = "text-capitalize my-1">Evelyn League of legends</p>
+                            <span class = "fw-bold">$ 25.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/games7.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Call of duty Design</p>
+                            <span class = "fw-bold">$ 11.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- collection -->
+    <section id = "games-collection" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center">
+                <h2 class = "position-relative d-inline-block">Anime</h2>
+            </div>
+
+            
+
+                <div class = "collection-list mt-4 row gx-0 gy-3">
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/buko1.jpeg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Buko no Hero Academia</p>
+                            <span class = "fw-bold">$ 5.00</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/madara.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Madara Bedsheet</p>
+                            <span class = "fw-bold">$ 20.00</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/zoro1.jpeg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Zoro Limited Edition</p>
+                            <span class = "fw-bold">$ 15.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "images//naruto.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Naruto Sage Mode design</p>
+                            <span class = "fw-bold">$15.00 </span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/sasuke.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Naruto and Sasuke Design</p>
+                            <span class = "fw-bold">$ 10.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/Onepiece1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">One Piece Bedsheet</p>
                             <span class = "fw-bold">$ 12.50</span>
                         </div>
                     </div>
@@ -380,7 +700,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
                         <div class = "collection-img position-relative">
-                            <img src = "images/buko1.jpeg" class = "w-100">
+                            <img src = "images/demon1.jpg" class = "w-100">
                             <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                         </div>
                         <div class = "text-center">
@@ -391,7 +711,7 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
-                            <p class = "text-capitalize my-1">Buko No Hero Academia Full Set</p>
+                            <p class = "text-capitalize my-1">Nezuko Bedsheet</p>
                             <span class = "fw-bold">$ 25.50</span>
                         </div>
                     </div>
@@ -399,6 +719,8 @@
             </div>
         </div>
     </section>
+
+
 
 
 
@@ -503,6 +825,13 @@
    
     <!-- bootstrap js -->
     <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script>
+     function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+</script> 
   
   
 </body>

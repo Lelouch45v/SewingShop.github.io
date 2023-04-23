@@ -38,6 +38,9 @@
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-search"></i>
                 </button>
+                <button onclick="myFunction()">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
             </div>
 
             <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
@@ -50,26 +53,25 @@
                         <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#collection">collection</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#collection">collection</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#special">specials</a>
-                            </li>
-                        <li class="nav-item px-2 py-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Products
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="BedSheet.html">Bedsheet</a></li>
-                          <li><a class="dropdown-item" href="curtains.html">Curtains</a></li>
-                       
-                        </ul>
-                      </li>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#special">specials</a>
+                    </li>
+                      <li class="nav-item px-2 py-2 dropdown">
+               <li class="nav-item px-2 py-2 dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         PRODUCT</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="BedSheet.html">Bedsheet</a></li>
+                  <li><a class="dropdown-item" href="curtains.html">Curtains</a></li>
+                 </ul>
+              </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#about">about us</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#about">about us</a>
                     </li>
                     <li class = "nav-item px-2 py-2 border-0">
-                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#popular">popular</a>
                     </li>
                 </ul>
             </div>
@@ -79,16 +81,12 @@
 
     <!-- collection -->
     <section id = "collection" class = "py-5">
-        <div class = "container">
-            <div class = "title text-center">
-                <h2 class = "position-relative d-inline-block">New Collection</h2>
-            </div>
 
             <div class = "row g-0">
                 <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
-                    <a href="#" class="btn m-2 text-dark active-filter-btn" role="button">All</a>
-                    <a href="#" class="btn m-2 text-dark " role="button">Best Sellers</a>
-                    <a href="#" class="btn m-2 text-dark " role="button">New Arrival</a>
+                    <a href="all_Products.html" class="btn m-2 text-dark active-filter-btn" role="button">All</a>
+                    <a href="bestsellers.html" class="btn m-2 text-dark " role="button">Best Sellers</a>
+                    <a href="new_arrival.html" class="btn m-2 text-dark " role="button">New Arrival</a>
                 </div>
 
                 <div class = "collection-list mt-4 row gx-0 gy-3">
@@ -243,8 +241,8 @@
      
     <div class="pagination">
           <a href="page2.html">&laquo;</a>
-          <a href="#">2</a>
-          <a href="all_Products.html" class="active">1</a>
+          <a href="#">1</a>
+          <a href="all_Products.html" class="active">2</a>
           <a href="#">3</a>
           
           <a href="page1.html">&raquo;</a>
@@ -346,8 +344,13 @@
     <!-- end of footer -->
 
    
+<script>
+     function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
 
-
+</script> 
    
     <!-- bootstrap js -->
     <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>

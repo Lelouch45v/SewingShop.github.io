@@ -12,12 +12,9 @@
     <!-- custom css -->
     <link rel = "stylesheet" href = "css/main.css">
 
-
-
+</head>
 <body>
- 
-
-     
+    
     <!-- navbar -->
     <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
         <div class = "container">
@@ -38,9 +35,6 @@
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-search"></i>
                 </button>
-                <button onclick="myFunction()">
-                    <i class="fa-regular fa-moon"></i>
-                </button>
             </div>
 
             <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
@@ -50,112 +44,66 @@
             <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
                 <ul class = "navbar-nav mx-auto text-center">
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html#collection">collection</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#collection">collection</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html#special">specials</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#special">specials</a>
                     </li>
-                      <li class="nav-item px-2 py-2 dropdown">
-               <li class="nav-item px-2 py-2 dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         PRODUCT</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="BedSheet.html">Bedsheet</a></li>
-                  <li><a class="dropdown-item" href="curtains.html">Curtains</a></li>
-         
-                 
-                 
-                </ul>
-              </li>
+                   
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html#about">about us</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#about">about us</a>
                     </li>
                     <li class = "nav-item px-2 py-2 border-0">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html#popular">popular</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- end of navbar -->
-       <section id = "special" class = "py-5">
-        <div class = "container">
-            <div class = "title text-center py-5">
-                <h1 class = "position-relative d-inline-block">New Arrival</h1>
-            </div>
-
-            <div class = "special-list row g-0">
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "special-img position-relative overflow-hidden">
-                        <img src = "images/space.jpg" class = "w-100">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                            <i class = "fas fa-heart"></i>
-                        </span>
-                    </div>
-                    <div class = "text-center">
-                        <p class = "text-capitalize mt-3 mb-1">Space theme Bedsheet</p>
-                        <span class = "fw-bold d-block">$ 12.50</span>
-                                          </div>
-                </div>
-
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "special-img position-relative overflow-hidden">
-                        <img src = "images/demon1.jpg" class = "w-100">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                            <i class = "fas fa-heart"></i>
-                        </span>
-                    </div>
-                    <div class = "text-center">
-                        <p class = "text-capitalize mt-3 mb-1">Nezuko Demon Slayer Full Set</p>
-                        <span class = "fw-bold d-block">$ 20.50</span>
-                        
-                    </div>
-                </div>
-
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "special-img position-relative overflow-hidden">
-                        <img src = "images/akatsuki.jpg" class = "w-100">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                            <i class = "fas fa-heart"></i>
-                        </span>
-                    </div>
-                    <div class = "text-center">
-                        <p class = "text-capitalize mt-3 mb-1">Naruto Akatsuki Edition</p>
-                        <span class = "fw-bold d-block">$ 15.50</span>
-                        
-                    </div>
-                </div>
-
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "special-img position-relative overflow-hidden">
-                        <img src = "images/madara.jpg" class = "w-100">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                            <i class = "fas fa-heart"></i>
-                        </span>
-                    </div>
-                    <div class = "text-center">
-                        <p class = "text-capitalize mt-3 mb-1">Madara Uchiha Set</p>
-                        <span class = "fw-bold d-block">$ 12.50</span>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of special products -->
 
 
-   
+    <!--cart item details-->
+
+    <div class="small-container cart-page">
+        
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                       <div class="cart-info">
+                            <img src="images/Grey_Canadian.jpg">
+                            <div>
+                                <p> Grey Bed Sheet</p>
+                                <small>Price:$5.00</small>
+                            </div>
+ 
+                       </div>  
+
+
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>$5.00</td>
+                </tr>
+            </table>
+    </div>
+
+  
+
     <!-- footer -->
-    <footer class = "bg-dark py-5">
+    <footer class = "bg-dark py-4">
         <div class = "container">
             <div class = "row text-white g-4">
                 <div class = "col-md-6 col-lg-3">
-                    <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Fajardo Tailor</a>
-                    <p class = "text-white text-muted mt-3">This shop runs by Fajardo Family that started during pandemic while our Convenience store addedd some sewing machine and we decide to become Convenience store and sewing shop that always available</p>
+                    <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Attire</a>
+                    <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
                 </div>
 
                 <div class = "col-md-6 col-lg-3">
@@ -241,19 +189,12 @@
     </footer>
     <!-- end of footer -->
 
-   
+
 
 
    
     <!-- bootstrap js -->
     <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-<script>
-     function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-
-</script> 
   
   
 </body>

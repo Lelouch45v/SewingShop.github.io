@@ -7,6 +7,9 @@
 }
 body{
     font-family: var(--sm-font);
+    padding: 25px;
+    background-color: white;
+    color: black;
 }
 
 /* button */
@@ -131,52 +134,18 @@ body{
         -ms-transform: scale(1.2);
             transform: scale(1.2);
 }
+#new-collection{
+    margin-top: 100px;
+}
 
-/* offers */
-#offers{
-    background: url(../images/narutoC.jpg) center/cover no-repeat;
-}
-#offers .row{
-    min-height: 60vh;
-}
-.offers-content span{
-    font-size: 28px;
-}
-.offers-content h2{
-    font-size: 60px;
-    font-family: var(--lg-font);
-}
-.offers-content .btn{
-    border-color: transparent!important;
-}
+
 
 /* about */
 #about{
     background-color: rgba(179, 179, 179, 0.05);
 }
 
-/* newsletter */
-#newsletter{
-    background-color: rgba(179, 179, 179, 0.05);
-}
-#newsletter p{
-    max-width: 600px;
-}
-#newsletter .input-group{
-    max-width: 500px;
-}
-#newsletter .form-control{
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-#newsletter .btn{
-    background-color: var(--pink);
-    color: #fff;
-    border-color: var(--pink);
-}
-#newsletter .btn:hover{
-    background-color: #000;
-    border-color: #000;
+
 }
 
 /* footer */
@@ -199,17 +168,6 @@ footer a:hover{
         border-bottom: none;
     }
 
-.arrow{
-    display: flex;
-    position: fixed;
-    width: 20px;
-    height: auto;
-    bottom: px;
-    right: 50px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-}
 
 
 html{
@@ -250,4 +208,15 @@ html{
     color:red;
 }
 
+body {
+  padding: 25px;
+  background-color: white;
+  background-image:
+ 
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 

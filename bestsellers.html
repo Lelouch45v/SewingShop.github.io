@@ -38,6 +38,9 @@
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-search"></i>
                 </button>
+                <button onclick="myFunction()">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
             </div>
 
             <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
@@ -50,15 +53,15 @@
                         <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#collection">collection</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#collection">collection</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#special">specials</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#special">specials</a>
                     </li>
                       <li class="nav-item px-2 py-2 dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Products
-                </a>
+               <li class="nav-item px-2 py-2 dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         PRODUCT</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="BedSheet.html">Bedsheet</a></li>
                   <li><a class="dropdown-item" href="curtains.html">Curtains</a></li>
@@ -68,23 +71,16 @@
                 </ul>
               </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#about">about us</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#about">about us</a>
                     </li>
                     <li class = "nav-item px-2 py-2 border-0">
-                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "index.html#popular">popular</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- end of navbar -->
-
-    <!-- collection -->
-    <section id = "collection" class = "py-5">
-        <div class = "container">
-            <div class = "title text-center">
-                <h2 class = "position-relative d-inline-block">New Collection</h2>
-            </div>
 
             <div class = "row g-0">
                 <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
@@ -243,12 +239,6 @@
     </section>
 
 
-    <div class="container pager">
-        <ul class="pager">
-            <li><a href="#">Previous</a></li>
-            <li><a href="#">Next</a></li>
-        </ul>
-   </div>
     <!-- end of collection -->
 
 
@@ -345,7 +335,13 @@
     </footer>
     <!-- end of footer -->
 
-   
+<script>
+     function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+</script>    
 
 
    
