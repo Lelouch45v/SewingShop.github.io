@@ -22,9 +22,9 @@ let products = [
     },
     {
         id: 2,
-        name: 'PRODUCT NAME 2',
-        image: '2.PNG',
-        price: 120000
+        name: 'SASUKE BEDSHEEST',
+        image: 'sasuke.jpg',
+        price: 25
     },
     {
         id: 3,
@@ -55,7 +55,19 @@ let products = [
         name: 'PRODUCT NAME 6',
         image: '6.PNG',
         price: 120000
-    }
+    },
+    {
+        id: 5,
+        name: 'PRODUCT NAME 5',
+        image: '5.PNG',
+        price: 320000
+    },
+    {
+        id: 5,
+        name: 'PRODUCT NAME 5',
+        image: '5.PNG',
+        price: 320000
+    },
 ];
 let listCards  = [];
 function initApp(){
