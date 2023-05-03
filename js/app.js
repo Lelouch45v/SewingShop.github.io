@@ -18,56 +18,56 @@ let products = [
         id: 1,
         name: 'SAMURAI BEDSHEET',
         image: 'samurai1.JPG',
-        price: 25
+        price: 250
     },
     {
         id: 2,
         name: 'SASUKE BEDSHEEST',
-        image: 'sasuke.jpg',
-        price: 25
+        image: 'sasuke.JPG',
+        price: 350
     },
     {
         id: 3,
-        name: 'PRODUCT NAME 3',
-        image: '3.PNG',
-        price: 220000
+        name: 'ZORO BEDSHEEST',
+        image: 'zoro1.JPEG',
+        price: 300
     },
     {
         id: 4,
-        name: 'PRODUCT NAME 4',
-        image: '4.PNG',
-        price: 123000
+        name: 'Demon Slayer BEDSHEEST ',
+        image: 'demon1.JPG',
+        price: 400
     },
     {
         id: 5,
-        name: 'PRODUCT NAME 5',
-        image: '5.PNG',
-        price: 320000
+        name: 'Demon Slayer BEDSHEEST White edition',
+        image: 'demonslayer.JPG',
+        price: 350
     },
     {
         id: 6,
+        name: 'League of legends rune of tera edition BEDSHEET set',
+        image: 'rune1.JPG',
+        price: 250
+    },
+    {
+        id: 7,
+        name: 'Buko No Hero BEDSHEEST',
+        image: 'buko1.JPEG',
+        price: 250
+    },
+     {
+        id: 8,
+        name: 'naruto BEDSHEEST ',
+        image: 'naruto.JPG',
+        price: 250
+    },
+     {
+        id: 9,
         name: 'PRODUCT NAME 6',
         image: '6.PNG',
-        price: 120000
-    },
-    {
-        id: 6,
-        name: 'PRODUCT NAME 6',
-        image: '6.PNG',
-        price: 120000
-    },
-    {
-        id: 5,
-        name: 'PRODUCT NAME 5',
-        image: '5.PNG',
-        price: 320000
-    },
-    {
-        id: 5,
-        name: 'PRODUCT NAME 5',
-        image: '5.PNG',
-        price: 320000
-    },
+        price: 300
+    }
 ];
 let listCards  = [];
 function initApp(){
@@ -124,3 +124,7 @@ function changeQuantity(key, quantity){
     }
     reloadCard();
 }
+
+$(document).ready(function() {  
+    $('#cartModal').modal('show');
+  });
